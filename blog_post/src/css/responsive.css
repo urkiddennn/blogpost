@@ -1,0 +1,85 @@
+@media screen and (max-width: 600px) {
+  header {
+    position: relative;
+  }
+  header h1 {
+    font-size: 15px;
+  }
+  header ul li {
+    position: absolute;
+    display: none;
+  }
+  header .contact-me {
+    width: 80px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .top {
+    height: 5rem;
+  }
+  .top h1 {
+    font-size: 3rem;
+  }
+  .home {
+    flex-direction: column;
+    
+  }
+
+  .home .intro {
+    width: auto;
+
+    
+  }
+  .home .intro h1 {
+    font-size: 1rem;
+  }
+  .home .intro p {
+    font-size: 0.5rem;
+  }
+  .home .intro a {
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .home .intro-1 {
+    position: relative;
+    width: 100%;
+    height: 50%;
+  }
+}
+.grid-image {
+  z-index: 11;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10rem;
+  gap: 20px;
+}
+.grid-item {
+  
+ 
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item:nth-child(1){
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Meme-Picture-Download-Free.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid-item:nth-child(2){
+  background-image: url("https://catsmylife.com/wp-content/uploads/2020/02/Internet-Is-Going-Crazy-Over-This-Coughing-Cat-Meme.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid-item:nth-child(3){
+  background-image: url("https://i.pinimg.com/originals/0a/bb/e5/0abbe546e479edc1eb62f5a8ccd66328.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid-item:nth-child(4){
+  background-image: url("https://i0.wp.com/thecaninebuddy.com/wp-content/uploads/2021/08/crying-cat-meme.jpg?w=2240&ssl=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
